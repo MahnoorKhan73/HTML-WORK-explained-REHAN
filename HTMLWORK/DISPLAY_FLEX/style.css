@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  
+  /* justify-content: space-around;
+  justify-content: space-between; */
+  /* text-align: center; */
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.first {
+  background-color: burlywood;
+}
+.second {
+  background-color: teal;
+}
+.third {
+  background-color: turquoise;
+}
+.first,
+.second,
+.third {
+  /* margin-top: 10px; */
+  /* margin-bottom: 700px; */
+  padding: 30px;
+}
+.middle {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.one {
+  background-color: cadetblue;
+}
+.two {
+  background-color: yellowgreen;
+}
+.three {
+  background-color: skyblue;
+}
+.one,
+.two,
+.three {
+  padding: 10px;
+  margin-top: 10px;
+  width: 400px;
+  text-align: center;
+  font-family: cursive;
+}
+.one:hover {
+  background-color: crimson;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.two:hover {
+  background-color: crimson;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.three:hover {
+  background-color: crimson;
+  cursor: pointer;
+  transition: 0.5s;
+}

@@ -1,0 +1,46 @@
+* {
+  padding: 0px auto;
+  margin: 0px auto;
+}
+.nav {
+  background-image: url(./images/saltnpepper-bg-pic.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  align-items:nav_btn ;
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  /* margin-top: 20px; */
+  /* background-color: aqua; */
+}
+.nav_li {
+  display: inline;
+  list-style: none;
+  padding: 30px;
+  text-transform: capitalize;
+  color: red;
+  margin-top: 50px;
+}
+.nav_li:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  color: red;
+  
+}
+.nav_btn > button {
+  text-transform: capitalize;
+  border: 2px solid red;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  color: red;
+  background: transparent;
+  transition:0.5s;
+  border-radius: 5px;
+}
+
+.nav_btn > button:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  color: red;
+}
+

@@ -1,0 +1,106 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 250px;
+  flex-wrap: wrap;
+}
+img {
+  /* transition: 0.5s; */
+  width: 300px;
+  margin-top: 55px;
+  border-radius: 3px;
+}
+/* img:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.1);
+} */
+.inputs {
+  margin-top: 57px;
+}
+.one {
+  display: block;
+  padding: 10px;
+  width: 150%;
+  border: none;
+  text-transform: capitalize;
+  border-bottom: 2px solid silver;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+.one:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(255, 120, 142);
+}
+.two {
+  display: block;
+  padding: 10px;
+  text-transform: capitalize;
+  width: 150%;
+  border: none;
+  border-bottom: 2px solid silver;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+.two:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(255, 120, 142);
+}
+.three {
+  display: block;
+  padding: 10px;
+  text-transform: capitalize;
+  width: 150%;
+  border: none;
+  border-bottom: 2px solid silver;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+.three:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(255, 120, 142);
+}
+.four {
+  display: block;
+  padding: 10px;
+  text-transform: capitalize;
+  width: 150%;
+  border: none;
+  border-bottom: 2px solid silver;
+  background-color: #fff;
+  margin-bottom: 25px;
+}
+.four:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(255, 120, 142);
+}
+/* .button {
+  margin-top: 20px;
+  background-color: rgb(32, 170, 32);
+  padding: 10px;
+  color: white;
+  text-align: center;
+  width: 100px;
+  transition: 0.5s;
+}
+.button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: crimson;
+  color: white;
+  transform: scale(1.1);
+} */
+a {
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  transition: 0.5s;
+  
+}
+a:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+  background-color: red;
+  color: white;
+}

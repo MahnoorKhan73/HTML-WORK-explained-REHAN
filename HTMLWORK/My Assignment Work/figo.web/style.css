@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  background-color: #fff;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navbar_list {
+  display: inline;
+  padding: 20px;
+  font-family: cursive;
+
+  width: 30%;
+}
+.navbar_list:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: red;
+}
+.Section_A {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 200px;
+  padding-left: 200px;
+  padding: 50px;
+  border-bottom: 1px solid;
+}
+.Section_A_img {
+  width: 500px;
+  transition: 0.5s;
+}
+.A_text_data {
+  padding: 50px;
+}
+.A_text_data > h1 {
+  margin-top: 100px;
+}
+
+.button {
+  background-color: green;
+  width: 30%;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.Section_A_img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: red;
+  color: white;
+}
+.Section_B {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 150px;
+  height: 50vh;
+  border-bottom: 1px solid;
+}
+.B {
+  color: crimson;
+}
+.B_h1 {
+  text-transform: capitalize;
+}
+.para {
+  color: black;
+}
+.B_button {
+  background-color: green;
+  width: 40%;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.B_button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: red;
+  color: white;
+}
+.Section_B_img {
+  width: 500px;
+}
+.cards_main_section {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 150px;
+}
+.cards_main_section > h2 {
+  margin-bottom: 50px;
+}
+.main_card {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 60px;
+  border-bottom: 1px solid;
+}
+.first_card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  text-transform: capitalize;
+}
+.second_card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  text-transform: capitalize;
+}
+.third_card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  text-transform: capitalize;
+}
+.first_card_img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.first_card_img {
+  transition: 0.5s;
+}
+.second_card_img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.second_card_img {
+  transition: 0.5s;
+}
+.third_card_img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.third_card_img {
+  transition: 0.5s;
+}
+.cards_main_section_2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 100px;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  padding: 60px ;
+  border-bottom: 1px solid;
+}
+.li {
+  list-style: none;
+  padding: 8px;
+  border-left: 5px solid orangered;
+  margin: 7px;
+}
+.li:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: gray;
+  padding: 15px;
+}
+.menu_card_img {
+  width: 200px;
+  transition: 0.5s;
+}
+.menu_card_img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.menu_cards {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 200px;
+}
+.rupee_1 {
+  color: #4b1d11;
+}
+.rupee_2 {
+  color: #097171;
+}
+.rupee_3 {
+  color: #9d6c1c;
+}
+.last_section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 150px;
+}
+.last_text_data {
+  text-transform: capitalize;
+}
+.last_para {
+  color: rgb(255, 0, 43);
+}
+.last_button {
+  background-color: green;
+  padding: 10px;
+  width: 120px;
+}
+.last_button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: red;
+  color: white;
+}
+.Section_B_img {
+  transition: 0.5s;
+}
+.Section_B_img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.last-img {
+  transition: 0.5s;
+  width: 500px;
+}
+.last-img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
